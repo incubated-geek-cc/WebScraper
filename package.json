@@ -1,0 +1,26 @@
+{
+  "name": "WebScraper",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incubated-geek-cc/WebScraper.git"
+  },
+  "description": "A Node.js express server setup to create a web scraping api where web content is parsed and extracted via a proxy.",
+  "main": "app.js",
+  "keywords": ["data scraping", "data", "proxy", "proxy server", "api", "html parser", "html dom", "api", "json", "diagnostic code", "icd code", "icd-10", "icd-9"],
+    "author": {
+    "name": "Charmaine Chui",
+    "url": "https://medium.com/@geek-cc"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/incubated-geek-cc/WebScraper",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html-minifier": "^4.0.0",
+    "jsdom": "^21.1.1",
+    "mustache": "^4.0.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
