@@ -10,22 +10,22 @@
 <div align="left">
 
 ### ✍ Read related post here
-[**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6)
+<!-- [**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6) -->
 
 ### 📌 Features
 
 </div>
 <div align="left">
 	<ul>
-		<li>Parses HTML content with <code>jsdom</code></li>
-		<li>Minifies retrieved HTML text with <code>html-minifier</code> (optional)</li>
-		<li>Traverse the HTML node(s) with <code>jsdom</code> for raw data extraction</li>
+		<li>Parses HTML content with <a href="https://www.npmjs.com/package/jsdom" target="_blank"><code>jsdom</code></a></li>
+		<li>Minifies retrieved HTML text with <a href="https://www.npmjs.com/package/html-minifier" target="_blank"><code>html-minifier</code></a> (optional)</li>
+		<li>Traverse the HTML node(s) for raw data extraction</li>
 		<li>Formats extracted data into structured JSON formatted data called via a GET API</li>
 	</ul>
 </div>
 </div>
 
-### 👀 Preview
+### 👀 Preview (e.g. `query` = "mood")
 <img src='https://github.com/incubated-geek-cc/WebScraper/raw/main/img/preview.png' width="800px" />
 
 <p>— <b>Join me on 📝 <b>Medium</b> at <a href='https://medium.com/@geek-cc' target='_blank'>~ ξ(🎀˶❛◡❛) @geek-cc</a></b></p>
