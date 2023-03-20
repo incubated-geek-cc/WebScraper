@@ -27,8 +27,8 @@ router.use((req, res, next) => { // router middleware
 });
 
 // http://localhost:5000/api/dexur/icd/mood
-router.get("/dexur/icd/:query", (req, _res) => {
-  let params=req.params;
+router.get("/dexur/icd/:query", (_req, _res) => {
+  let params=_req.params;
   let query=params["query"]; // depress | schizophrenia
   let endpoint="https://dexur.com/icd/search/?q="+query // let endpoint="https://dexur.com/icd/search/?q=depress"
 
