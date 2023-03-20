@@ -12,6 +12,11 @@
 ### 🌟 Try it yourself
 [**Live Demo :: Link**](https://incubated-geek-cc.github.io/emoji2image)
 
+### 🌟 Try it yourself
+* Run `npm install`
+* Double-click file startup.sh
+* Navigate to localhost:5000 and test API
+
 ### ✍ Read related post here
 [**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6)
 

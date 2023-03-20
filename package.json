@@ -1,17 +1,18 @@
 {
   "name": "WebScraper",
   "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/incubated-geek-cc/WebScraper.git"
-  },
   "description": "A Node.js express server setup to create a web scraping api where web content is parsed and extracted via a proxy.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "engines": {
-    "node": "18.12.1"
+    "node": "16.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incubated-geek-cc/WebScraper.git",
+    "directory": "WebScraper"
   },
   "keywords": [
     "data scraping",
@@ -29,12 +30,7 @@
     "web scraping",
     "medical coding"
   ],
-  "author": {
-    "name": "Charmaine Chui",
-    "url": "https://medium.com/@geek-cc"
-  },
-  "license": "ISC",
-  "homepage": "https://github.com/incubated-geek-cc/WebScraper",
+  "author": "geek_cc",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
