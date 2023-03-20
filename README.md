@@ -5,12 +5,15 @@
 
   ### 🛠️ Retrieves HTML text content from <a href="https://dexur.com/icd/search/" target="_blank">https://dexur.com/icd/search/</a> and returns a JSON formatted response
 
-**Runs on Node.js. 🔌 Express framework setup.**
+**Runs on Node.js Express framework. 🔌 Request proxy setup.**
 
 <div align="left">
 
+### 🌟 Try it yourself
+[**Live Demo :: Link**](https://incubated-geek-cc.github.io/emoji2image)
+
 ### ✍ Read related post here
-<!-- [**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6) -->
+[**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6)
 
 ### 📌 Features
 

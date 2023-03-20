@@ -71,8 +71,9 @@ router.get("/dexur/icd/:query", (_req, _res) => {
 
 // REGISTER ALL ROUTES -------------------------------
 // all of the routes will be prefixed with /api
-app.use("/api", router);
-
-app.listen(PORT, () => {
+app.use("/api", router)
+.set("view engine", "html")
+.get("/", (req, res) => res.send("<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><title>Error 404 | Page Not Found</title><style>html,body{overflow:hidden}div{text-align:center; height: 60vh; margin:20vh auto;}</style></head><body><div><h1>𝟺𝟶𝟺</h1><h3>⚠ 𝖯𝖺𝗀𝖾 𝗇𝗈𝗍 𝖿𝗈𝗎𝗇𝖽</h3><h4>𝖲𝖾𝗅𝖾𝖼𝗍 <a href='api/dexur/icd/panic'>𝗅𝗂𝗇𝗄</a> 𝗍𝗈 𝗋𝖾𝖽𝗂𝗋𝖾𝖼𝗍 𝗉𝖺𝗀𝖾 𝗍𝗈 𝗌𝖺𝗆𝗉𝗅𝖾 𝖠𝖯𝖨 𝗐𝗁𝖾𝗋𝖾 <mark>𝚚𝚞𝚎𝚛𝚢=❝𝚙𝚊𝚗𝚒𝚌❞</mark></h4></div></body></html>"))
+.listen(PORT, () => {
   console.log(`WebScraper app is listening on port ${PORT}!`)
 });
