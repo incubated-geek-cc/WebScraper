@@ -9,13 +9,14 @@
 
 <div align="left">
 
-### 🌟 Try it yourself
-[**Live Demo :: Link**](https://incubated-geek-cc.github.io/emoji2image)
+### 🌟 Try it yourself (where `query = "panic"`)
+[**Live Demo :: Link**](https://icd-code-web-scraper.glitch.me/api/dexur/icd/panic) 
+[**Live Demo :: Backup Link**](https://icd-code-web-scraper.onrender.com/api/dexur/icd/panic) 
 
-### 🌟 Try it yourself
-* Run `npm install`
-* Double-click file startup.sh
-* Navigate to localhost:5000 and test API
+### 🧰 Run on localhost
+* Run `npm install` to install all node dependencies
+* Double-click file `startup.sh`
+* Navigate to <a href='localhost:5000'>localhost:5000</a> and test API
 
 ### ✍ Read related post here
 [**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6)
