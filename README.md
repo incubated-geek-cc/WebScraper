@@ -20,7 +20,7 @@
 * Navigate to <a href='localhost:5000'>localhost:5000</a> and test API
 
 ### ✍ Read related post here
-[**Article :: Link**](https://geek-cc.medium.com/convert-font-emojis-to-image-files-with-custom-dimensions-using-vanilla-javascript-d276703567b6)
+[**Article :: Link**](https://geek-cc.medium.com/how-to-create-a-web-scraper-api-via-a-request-proxy-with-node-js-express-da23c0c90339)
 
 ### 📌 Features
 
